@@ -1,0 +1,75 @@
+.property{
+    height: 275px;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 55px;
+    font-weight: 600;
+    position: absolute;
+    top: 836px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border: 1px solid lightgray;
+}
+#dropdown1{
+    width: 25%;
+    height:45px;
+    border:none;
+    margin: 15px;
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+#dropdown2{
+    width: 25%;
+    height:45px;
+    border:none;
+    margin: 15px;
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+#dropdown3{
+    width: 15%;
+    height:45px;
+    border:none;
+    margin: 15px;
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+#dropdown4{
+    width: 15%;
+    height:45px;
+    border:none;
+    margin: 15px;
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+option{
+    text-align: center;
+    /* height: 35px;
+    background-color: lightgray;
+    border: 1px solid lightgray; */
+}
+option.active{
+    text-align: left;
+    display: none;
+}
+.property-btn{
+    display: block;
+    width: 42%;
+    height: 50px;
+    margin: auto;
+    background-color: #d84c4d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
